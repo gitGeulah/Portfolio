@@ -48,7 +48,7 @@ public class BuildingGUI2
      * Creates the frame for the building
      */
     private void makeFrame() {
-        frame = new JFrame("Building");
+	frame = new JFrame("Royal Building");
         makeButtons(frame);
         Container contentPane = frame.getContentPane();
         frame.pack();
